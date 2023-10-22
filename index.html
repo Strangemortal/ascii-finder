@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Table</title>
+    <link rel="stylesheet" href="style.css" id="bbksst">
+    <!-- <link rel="stylesheet" href="dark-mode.css"> -->
+</head>
+<body>
+    <h1>ASCII Table</h1>
+    <div class="dark-mode-slider">
+        <input type="range" min="0" max="1" step="1" value="0" class="slider" id="darkModeSlider">
+        <label id='helleluya' for="darkModeSlider">Dark Mode</label>
+    </div>
+    <div class="search-container">
+        
+        <input type="text" id="searchInput" placeholder="Enter value...">
+        <select id="searchType">
+            <option value="decimal">Decimal</option>
+            <option value="hex">Hex</option>
+            <option value="character">Character</option>
+        </select>
+        <button onclick="search()">Search</button>
+        
+    </div>
+    <div id="searchResult"></div>
+    <table id="ascii-table">
+        <tr>
+            <th>Dec</th>
+            <th>Hex</th>
+            <th>Character</th>
+        </tr>
+ 
+    </table>
+
+    
+      
+    
+    <script src="script.js"></script>
+</body>
+</html>
