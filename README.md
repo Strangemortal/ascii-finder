@@ -10,7 +10,7 @@ This project is a simple website that displays an ASCII table and allows users t
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
@@ -25,7 +25,7 @@ The ASCII Table Website is built to help users quickly look up ASCII values and 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+1. Clone the repository: `git clone https://github.com/Strangemortal/your-repository.git`
 2. Navigate to the project directory.
 3. Open the `index.html` file in your preferred web browser.
 
